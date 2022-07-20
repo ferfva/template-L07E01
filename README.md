@@ -20,3 +20,10 @@ assert next(progression) == 5
 assert next(progression) == 7
 assert next(progression) == 9
 ```
+
+## Lokální testování
+Funkčnost řešení ověříte následujícím příkazem:
+
+```bash
+pytest tests.py
+```
