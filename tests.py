@@ -16,6 +16,6 @@ def test_arithmetic_infinite():
     gen_ = arithmetic_progression(5, 2)
 
     assert next(gen_) == 5
-    next(gen_) == 7
-    next(gen_) == 9
-    next(gen_) == 11
+    assert next(gen_) == 7
+    assert next(gen_) == 9
+    assert next(gen_) == 11
